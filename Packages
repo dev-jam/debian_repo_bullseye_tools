@@ -1,0 +1,936 @@
+Package: birdtray
+Version: 1.9.0+ds-2+b1~bpo11+1
+Architecture: amd64
+Maintainer: Adam Borowski <kilobyte@angband.pl>
+Installed-Size: 1038
+Depends: thunderbird, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6
+Filename: ./birdtray_1.9.0+ds-2+b1~bpo11+1_amd64.deb
+Size: 341388
+MD5sum: bc7501a73b32594807872e15b4599514
+SHA1: 85c986e4121049c9cb12203f7fc08bb7b3d44b86
+SHA256: 9946f43a8a0ed46e346ee620441b3ab66dca9840b1ba357ecad89b32b774d09c
+Section: mail
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/gyunaev/birdtray
+Description: system tray notifications for Thunderbird
+ Birdtray provides systray notifications for Thunderbird.  It displays the
+ count of unread mail, hides the Thunderbird window when not in use, and
+ restores it on clicking the tray icon.  It also provides a context menu
+ with commands such as starting composing a new mail.
+ .
+ It is a nasty hack -- an external process looking at Thunderbird's
+ insides, it suffers from problems like noticing new mails only after a
+ delay, having to restart Thunderbird just to hide its window, etc --
+ you'd want to use an extension like firetray instead -- but, it is
+ likely that support for Thunderbird XUL extensions will be dropped soon,
+ possibly by the time you read these words.
+
+Package: calamares
+Version: 3.2.61-2~bpo11+1
+Architecture: amd64
+Maintainer: Jonathan Carter <jcc@debian.org>
+Installed-Size: 10177
+Depends: os-prober, kpackagetool5, libboost-python1.74.0 (>= 1.74.0), libboost-python1.74.0-py39, libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libicu67 (>= 67.1-1~), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.96.0), libkf5package5 (>= 5.5.0+git), libkf5parts5 (>= 4.96.0), libkpmcore12 (>= 22.08.3), libparted2 (>= 3.1), libpwquality1 (>= 1.1.0), libpython3.9 (>= 3.9.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5quickwidgets5 (>= 5.3.0), libqt5svg5 (>= 5.6.0~beta), libqt5webkit5 (>= 5.212.0~alpha3), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libyaml-cpp0.6 (>= 0.6.2)
+Recommends: btrfs-progs, squashfs-tools
+Filename: ./calamares_3.2.61-2~bpo11+1_amd64.deb
+Size: 4031216
+MD5sum: 3a1ef406d7f07f85421512ac20ee1eab
+SHA1: 836370ff05cfaa2bd70a8db11e8a932ff3c4faa1
+SHA256: b8a956e24fd825a78e5a5e7fa5f5e894cc6ad9c253abf40fc5ef0ce13610577c
+Section: utils
+Priority: optional
+Homepage: https://github.com/calamares/calamares
+Description: distribution-independent installer framework
+ Calamares is a distribution-independent installer framework.
+ .
+ It provides a graphical installer that can be used with nearly
+ any distribution. This package is suitable for live media on
+ Debian-based systems, and won't be of any particular use on
+ an already installed system.
+ .
+ You will likely want to provide your own config files to match
+ your distribution, reading the Calamares documentation will guide
+ you through that process.
+
+Package: cpu-x
+Version: 4.3.1-1~bpo11+1
+Architecture: amd64
+Maintainer: Martin Wimpress <martin.wimpress@ubuntu.com>
+Installed-Size: 2977
+Depends: libc6 (>= 2.29), libcairo2 (>= 1.2.4), libcpuid15 (>= 0.5.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgl1, libglfw3 (>= 3.3), libglib2.0-0 (>= 2.30.0), libgtk-3-0 (>= 3.13.7), libncursesw6 (>= 6), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpci3 (>= 1:3.5.1), libprocps8 (>= 2:3.3.16-1), libtinfo6 (>= 6), dconf-gsettings-backend | gsettings-backend, procps
+Filename: ./cpu-x_4.3.1-1~bpo11+1_amd64.deb
+Size: 1677144
+MD5sum: 4ca5f7208dd038648fbbd036d7371be4
+SHA1: bc298a4905b78f93c591a2aeb8332f986b849b58
+SHA256: ac1f7b88a72a2e1be98f79f9a02975d031236ff684ce2e6645f1481ac241ae6a
+Section: x11
+Priority: optional
+Homepage: https://github.com/X0rg/CPU-X
+Description: Tool that gathers information on CPU, motherboard and more
+ CPU-X is similar to CPU-Z (for MS Windows). It can be used in graphical
+ mode by using GTK or in text-based mode by using NCurses. A dump mode is
+ present from the command line.
+
+Package: fsearch
+Version: 0.2.2-1+3.2
+Architecture: amd64
+Maintainer: Christian Boxdörfer <cboxdoerfer@posteo.de>
+Installed-Size: 1091
+Depends: libc6 (>= 2.29), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.59.2), libgtk-3-0 (>= 3.21.5), libicu67 (>= 67.1-1~), libpango-1.0-0 (>= 1.14.0), libpcre2-8-0 (>= 10.22)
+Filename: ./fsearch_0.2.2-1+3.2_amd64.deb
+Size: 232876
+MD5sum: 5bea0ab4e4dfe9eee6a12c0fee38aee0
+SHA1: a059287ea035f80fc8e61c8dc19102034c358c28
+SHA256: 6c9eaa57fe0d8375d762298cce4109251b91b61cc78696e48d66983d8f49067f
+Section: utils
+Priority: optional
+Homepage: https://cboxdoerfer.github.io/fsearch/
+Description: A fast graphical file search utility
+ FSearch is a fast file search utility, based on GTK3.
+ It supports regular expressions, wildcards, fast sorting,
+ instant results with millions of files and more.
+
+Package: glmark2-data
+Source: glmark2
+Version: 2022.06~git.3f1104d-2~bpo11+1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 9310
+Recommends: glmark2-drm (>= 2022.06~git.3f1104d-2~bpo11+1) | glmark2-wayland (>= 2022.06~git.3f1104d-2~bpo11+1) | glmark2-x11 (>= 2022.06~git.3f1104d-2~bpo11+1) | glmark2-es2-wayland (>= 2022.06~git.3f1104d-2~bpo11+1) | glmark2-es2-drm (>= 2022.06~git.3f1104d-2~bpo11+1) | glmark2-es2-x11 (>= 2022.06~git.3f1104d-2~bpo11+1)
+Filename: ./glmark2-data_2022.06~git.3f1104d-2~bpo11+1_all.deb
+Size: 6592864
+MD5sum: 43a99f03d4a233a51cf189be421a0b8f
+SHA1: 4e0c12ff16e852ba9396dc778bad72f760cba459
+SHA256: 27afe94ba646ea6e2f3a4efa9fa41e63e04e30bd94530a2f24c16902b0763f74
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL (ES) 2.0 benchmark suite -- data files
+ glmark2 is a benchmark for OpenGL (ES) 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package provides data files.
+
+Package: glmark2-drm
+Source: glmark2
+Version: 2022.06~git.3f1104d-2~bpo11+1
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1030
+Depends: glmark2-data (= 2022.06~git.3f1104d-2~bpo11+1), libdrm2 (>= 2.4.30), libc6 (>= 2.27), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libudev1 (>= 183)
+Filename: ./glmark2-drm_2022.06~git.3f1104d-2~bpo11+1_amd64.deb
+Size: 295192
+MD5sum: 04a6c2ff15c1e1618832aa0a81bf9670
+SHA1: 8bf73caf101262009c205d074e0c293fa429cf7b
+SHA256: bed5c6135aced7b91d84d7187156fd26e3135258864c13de5dd49784e2952beb
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL 2.0 benchmark suite
+ glmark2 is a benchmark for OpenGL 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package is intended only for the DRM stand-alone back-end. GL version.
+
+Package: glmark2-es2-drm
+Source: glmark2
+Version: 2022.06~git.3f1104d-2~bpo11+1
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1014
+Depends: glmark2-data (= 2022.06~git.3f1104d-2~bpo11+1), libdrm2 (>= 2.4.30), libc6 (>= 2.27), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libudev1 (>= 183)
+Filename: ./glmark2-es2-drm_2022.06~git.3f1104d-2~bpo11+1_amd64.deb
+Size: 292832
+MD5sum: ac123d23904270febb2c02e2953c1eb2
+SHA1: ff9a422c4da252c7b5d1e4cc53b508831c617844
+SHA256: 04bb66347c4d9a49a6ec6ac5397fa12eb472436fa64c6d7bb5c6c1b1d85810ce
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL 2.0 benchmark suite
+ glmark2 is a benchmark for OpenGL 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package is intended only for the DRM stand-alone back-end. GLESv2 version.
+
+Package: glmark2-es2-wayland
+Source: glmark2
+Version: 2022.06~git.3f1104d-2~bpo11+1
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1014
+Depends: glmark2-data (= 2022.06~git.3f1104d-2~bpo11+1), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libwayland-egl1 (>= 1.15.0)
+Filename: ./glmark2-es2-wayland_2022.06~git.3f1104d-2~bpo11+1_amd64.deb
+Size: 292532
+MD5sum: 1a58e1a244377706e0833d8d26314fa7
+SHA1: 79aae5de6ec2e17f6338a824dcd2e98198eb895a
+SHA256: 3403ebec365884f7d893adff795e1072eee635b58da90da93c246791058e8567
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL 2.0 benchmark suite
+ glmark2 is a benchmark for OpenGL 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package intended only for the wayland platform. GLESv2 version.
+
+Package: glmark2-es2-x11
+Source: glmark2
+Version: 2022.06~git.3f1104d-2~bpo11+1
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1002
+Depends: glmark2-data (= 2022.06~git.3f1104d-2~bpo11+1), libx11-6, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2)
+Replaces: glmark2-es2 (<< 2021.02+ds)
+Provides: glmark2-es2
+Filename: ./glmark2-es2-x11_2022.06~git.3f1104d-2~bpo11+1_amd64.deb
+Size: 289844
+MD5sum: 457e5888f32d6f2ad3d36db0a41ba045
+SHA1: 3126cc9f9a5bbf34f3a9777a38c2bd146a6e3198
+SHA256: 90146c8ad7cf95b24cc646791abe1e9a7fc2acc1c90277f3c5e1765c350560f6
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL 2.0 benchmark suite
+ glmark2 is a benchmark for OpenGL 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package is intended only for the X11 platform. GLESv2 version.
+
+Package: glmark2-wayland
+Source: glmark2
+Version: 2022.06~git.3f1104d-2~bpo11+1
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1026
+Depends: glmark2-data (= 2022.06~git.3f1104d-2~bpo11+1), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libwayland-egl1 (>= 1.15.0)
+Filename: ./glmark2-wayland_2022.06~git.3f1104d-2~bpo11+1_amd64.deb
+Size: 295176
+MD5sum: 3b08b737870f61dac4851a72556c3e58
+SHA1: 31a3e513b73d8de4c0281095f90ae7640d3be519
+SHA256: 99a047e4b454eed660564fae1bd9ee57c7b0c180c49ff6a17c5f643d4f05426e
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL 2.0 benchmark suite
+ glmark2 is a benchmark for OpenGL 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package intended only for the wayland platform. GL version.
+
+Package: glmark2-x11
+Source: glmark2
+Version: 2022.06~git.3f1104d-2~bpo11+1
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 1006
+Depends: glmark2-data (= 2022.06~git.3f1104d-2~bpo11+1), libx11-6, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2)
+Replaces: glmark2 (<< 2021.02+ds)
+Provides: glmark2
+Filename: ./glmark2-x11_2022.06~git.3f1104d-2~bpo11+1_amd64.deb
+Size: 288392
+MD5sum: f171906dbbc625a3433be2a48f1721ab
+SHA1: 6731bb547f1b969147fde523d681077cd5049671
+SHA256: 1a3f774079f40129ccf387551f394d7766fbee55c59feb0eb3bb0c081004e7dc
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL 2.0 benchmark suite
+ glmark2 is a benchmark for OpenGL 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package is intended only for the X11 platform. GL version.
+
+Package: gprename
+Version: 20210415-1~bpo11+1
+Architecture: all
+Maintainer: Thiago Pezzo <pezzo@protonmail.com>
+Installed-Size: 212
+Depends: libglib-perl, libgtk3-perl, libintl-perl, liblocale-gettext-perl, libpango-perl, perl:any
+Filename: ./gprename_20210415-1~bpo11+1_all.deb
+Size: 47664
+MD5sum: cb9d3de0e3251cc79ec96decf8d96d7c
+SHA1: 3e26ad1f7139104315dd0a4b72c6b1e921735011
+SHA256: 26bfa00857c9f8122edb4fc833d58ed7b0911e90f6408d8a324854344e444ca4
+Section: utils
+Priority: optional
+Homepage: http://gprename.sourceforge.net
+Description: complete batch renamer for Linux
+ GPRename is a complete batch renamer for files and directories.
+ It can easily replace, remove, insert, delete, and number
+ consecutively files and directories using a graphical interface (GUI).
+
+Package: hstr
+Version: 2.5+ds-1~bpo11+1
+Architecture: amd64
+Maintainer: Daniel Echeverri <epsilon@debian.org>
+Installed-Size: 77
+Depends: libc6 (>= 2.29), libncursesw6 (>= 6), libreadline8 (>= 6.0), libtinfo6 (>= 6)
+Filename: ./hstr_2.5+ds-1~bpo11+1_amd64.deb
+Size: 28752
+MD5sum: 5cccc85d0470de0b14ab42e8d5e38a4c
+SHA1: 32eaf06b4d2b82def1d4586f11989084e96b341f
+SHA256: 942d52d88d29cfa0cce269be440e9a4ae5e9c38d8fc4f5ec5ae600e9ad786e84
+Section: utils
+Priority: optional
+Homepage: https://github.com/dvorka/hstr
+Description: Suggest box like shell history completion
+ Command line tool that brings improved bash/zsh command completion
+ from the history. It aims to make completion easier and more efficient
+ than Ctrl-r.
+ .
+ HSTR can also manage your command history (for instance you can remove
+ commands that are obsolete or contain a piece of sensitive information)
+ or bookmark your favorite commands.
+
+Package: libappimage-dev
+Source: libappimage
+Version: 0.1.9+dfsg-1~bpo11+1
+Architecture: amd64
+Maintainer: Scarlett Moore <sgmoore@kde.org>
+Installed-Size: 67
+Depends: libappimage0 (= 0.1.9+dfsg-1~bpo11+1)
+Filename: ./libappimage-dev_0.1.9+dfsg-1~bpo11+1_amd64.deb
+Size: 15856
+MD5sum: 8c9e202fe03ddbb5ab4e742740bb7aa4
+SHA1: eeba4f5838dc793cf7cc047f81aecea3e24aef3a
+SHA256: ac6344b5922d18fb61228b16e53204d298ef77bea5afb948abd827c4e62ce977
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/AppImage/libappimage
+Description: Development files for libappimage
+ Core library of the AppImage project. Reference implementation
+ of the AppImage specification. https://appimage.org
+ .
+ AppImage provides a way for upstream developers to provide
+ “native” binaries for Linux users just the same way they could
+ do for other operating systems. It allow packaging applications
+ for any common Linux based operating system, e.g., Ubuntu,
+ Debian, openSUSE, RHEL, CentOS, Fedora etc. AppImages
+ come with all dependencies that cannot be assumed to be part
+ of each target system in a recent enough version and will run
+ on most Linux distributions without further modifications.
+ .
+ AppImage is the format, and AppImageKit provides a
+ reference implementation.
+ .
+ This package contains the development files for libappimage.
+
+Package: libappimage0
+Source: libappimage
+Version: 0.1.9+dfsg-1~bpo11+1
+Architecture: amd64
+Maintainer: Scarlett Moore <sgmoore@kde.org>
+Installed-Size: 82
+Depends: libarchive13 (>= 3.0.4), libc6 (>= 2.27), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.39.4), libsquashfuse0 (>= 0.0.0)
+Filename: ./libappimage0_0.1.9+dfsg-1~bpo11+1_amd64.deb
+Size: 24628
+MD5sum: 996fd6ca79c768e4617f23ec492830c3
+SHA1: 94bf14c9d7044bd86cb85482d65380fa393fb82e
+SHA256: c653c039f9c4831982d6b87d388248545d23b6018648ad996b4b88e86bcf99bb
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/AppImage/libappimage
+Description: Core library for appimage
+ Core library of the AppImage project. Reference implementation
+ of the AppImage specification. https://appimage.org
+ .
+ AppImage provides a way for upstream developers to provide
+ “native” binaries for Linux users just the same way they could
+ do for other operating systems. It allow packaging applications
+ for any common Linux based operating system, e.g., Ubuntu,
+ Debian, openSUSE, RHEL, CentOS, Fedora etc. AppImages
+ come with all dependencies that cannot be assumed to be part
+ of each target system in a recent enough version and will run
+ on most Linux distributions without further modifications.
+ .
+ AppImage is the format, and AppImageKit provides a
+ reference implementation.
+ .
+ This library is used by some tools used to ease the installation
+ and usage of appimages.
+ .
+ This package contains the library for libappimage.
+
+Package: libappindicator3-1
+Source: libappindicator
+Version: 0.4.92-7
+Architecture: amd64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 106
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libdbusmenu-glib4 (>= 0.4.2), libdbusmenu-gtk3-4 (>= 0.4.2), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libindicator3-7, libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
+Filename: ./libappindicator3-1_0.4.92-7_amd64.deb
+Size: 53472
+MD5sum: 582eb4761939b3d76b218f77550ccada
+SHA1: 168da995924b537b33495f940efa1eb0a06cd119
+SHA256: 591f86e5d732c223911c9246c4384758565a801575ea466631f752a6a7b9c89c
+Section: oldlibs
+Priority: optional
+Multi-Arch: same
+Homepage: https://launchpad.net/libappindicator
+Description: allow applications to export a menu into the panel -- GTK3 version
+ A library to allow applications to export a menu into the panel.
+ Based on KSNI it also works in KDE and will fallback to generic Systray
+ support if none of those are available.
+ .
+ This package contains shared libraries to be used by GTK3 applications.
+
+Package: libdvd-pkg
+Version: 1.4.3-1-1~bpo11+1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 82
+Depends: debconf (>= 0.5) | debconf-2.0, build-essential, wget | devscripts, debhelper-compat (= 13)
+Recommends: libcap2-bin
+Provides: libdvdcss-dev, libdvdcss2
+Filename: ./libdvd-pkg_1.4.3-1-1~bpo11+1_all.deb
+Size: 16544
+MD5sum: c465b56f1c6a0718acd8f8797335e249
+SHA1: 9fe2dd173cda351c79aef49362661d66bc8e2b59
+SHA256: 43dcc7745376e5d4e340669131dfddfcbc872103d242d5e972480f1a3a16ee12
+Section: contrib/utils
+Priority: optional
+Description: DVD-Video playing library - installer
+ This package provides libraries that are needed for playing video DVDs
+ with a media player (such as VLC, SMplayer, Totem, etc.). It automates
+ the process of downloading source files, compiling them, and installing
+ the binary packages.
+
+Package: libdvdcss-dev
+Source: libdvdcss
+Version: 1.4.3-1~local
+Architecture: amd64
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 26
+Depends: libdvd-pkg, libdvdcss2 (= 1.4.3-1~local)
+Filename: ./libdvdcss-dev_1.4.3-1~local_amd64.deb
+Size: 6864
+MD5sum: e742f844b720107c2415e71114073e86
+SHA1: 3cfb813be98eb70626081fddbe05a13510b8a99c
+SHA256: b7b762f8e6cfbba949130b41650fcd3fd0874131e775f90fe355edb078ab065d
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/developers/libdvdcss.html
+Description: library for accessing encrypted DVDs - development files
+ libdvdcss is a library for accessing and unscrambling DVDs encrypted
+ with the Content Scramble System (CSS).
+ libdvdcss is part of the VideoLAN project.
+ .
+ This package provides development files.
+
+Package: libdvdcss2
+Source: libdvdcss
+Version: 1.4.3-1~local
+Architecture: amd64
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 62
+Depends: libdvd-pkg, libc6 (>= 2.7)
+Provides: libdvdcss
+Filename: ./libdvdcss2_1.4.3-1~local_amd64.deb
+Size: 22848
+MD5sum: ed1ba645e408881d12ad9a751c4e8765
+SHA1: 9960786049a337755d4aaf405f2756ab84eba335
+SHA256: 7f7b799db28f9917f7747c163c4b295ea3489c1c03f05180231356f49bf538f2
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.videolan.org/developers/libdvdcss.html
+Description: library for accessing encrypted DVDs
+ libdvdcss is a library for accessing and unscrambling DVDs encrypted
+ with the Content Scramble System (CSS).
+ libdvdcss is part of the VideoLAN project.
+ .
+ This package provides runtime libraries.
+
+Package: libindicator3-7
+Source: libindicator
+Version: 0.5.0-4
+Architecture: amd64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 106
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
+Filename: ./libindicator3-7_0.5.0-4_amd64.deb
+Size: 52940
+MD5sum: c39a121f8c3d91c5b070bdbfdcd625bf
+SHA1: b51fe4824783fa3b7525a452934534f78da1cac4
+SHA256: 82d90abe8d768d9c8c60cb38cb87a5843f4dcda537f41b80d571a774e09c11ff
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://launchpad.net/libindicator
+Description: panel indicator applet - shared library
+ This library contains information to build indicators to go into
+ the indicator applet.
+ .
+ This package contains the library itself.
+
+Package: live-boot
+Version: 1:20220505~bpo11+1
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 144
+Depends: live-boot-initramfs-tools | live-boot-backend
+Recommends: live-boot-doc, live-tools, rsync, uuid-runtime
+Suggests: cryptsetup, curlftpfs, httpfs2, wget
+Filename: ./live-boot_20220505~bpo11+1_all.deb
+Size: 56724
+MD5sum: 68060a8407d12276ee8c355205e536d9
+SHA1: 818d1f175d088861594b39d80704fabfd6792792
+SHA256: 4ebc43ba712a063b57cf9f37f9bcbe534910b0ae278e5b96bac8d9f5fe460c98
+Section: misc
+Priority: optional
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Boot Components
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-boot contains the components to configure a live system during the boot
+ process (early userspace). Do not install this package on your regular system,
+ it is only meant to be used in a live image.
+ .
+ In addition to live-boot, a backend for the initrd generation is required, such
+ as live-boot-initramfs-tools.
+
+Package: live-boot-doc
+Source: live-boot
+Version: 1:20220505~bpo11+1
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 97
+Filename: ./live-boot-doc_20220505~bpo11+1_all.deb
+Size: 76216
+MD5sum: 8077c3687e343fcdd15f4de24d1daf22
+SHA1: d9378cd1fb920c2c17f2a71f91486904ff3e3778
+SHA256: b396cfbce9f679cae1f8a69fcf9f166017ebc898a6ceaf7cf1215d7bc7db0caf
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Boot Components (documentation)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-boot contains the components to configure a live system during the boot
+ process (early userspace).
+ .
+ This package contains the documentation.
+
+Package: live-boot-initramfs-tools
+Source: live-boot
+Version: 1:20220505~bpo11+1
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 52
+Depends: busybox | busybox-initramfs, initramfs-tools, udev
+Conflicts: live-boot-backend
+Replaces: live-boot-backend
+Provides: live-boot-backend
+Filename: ./live-boot-initramfs-tools_20220505~bpo11+1_all.deb
+Size: 33724
+MD5sum: 1101180190767b8aef75d5524fe0e14b
+SHA1: 00559d58c8f155ecc83df7592dbeb05731cf44c3
+SHA256: 33ca3e6b6a9674a859d92f9974ff38267a8a023a12cc992d817c5573d82db965
+Section: misc
+Priority: optional
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Boot Components (initramfs-tools backend)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-boot contains the components to configure a live system during the boot
+ process (early userspace). Do not install this package on your regular system,
+ it is only meant to be used in a live image.
+ .
+ This package contains the initramfs-tools backend.
+
+Package: live-clone
+Version: 2.6-1~bpo11+1
+Architecture: all
+Maintainer: Georges Khaznadar <georgesk@debian.org>
+Installed-Size: 1444
+Depends: python3:any, python3-pyqt5, python3-markdown, python3-mdx-math, gir1.2-udisks-2.0, fdisk, dosfstools, sg3-utils
+Recommends: qemu-kvm
+Filename: ./live-clone_2.6-1~bpo11+1_all.deb
+Size: 548348
+MD5sum: 3ad8c5d53894429522870a771683e509
+SHA1: 793dd694bc526da08466ab060c87a40fedc8ce8f
+SHA256: 071a3ef4ca2bf0e7924b7ca899ffc779c9af0bf6016253ed344183192dbe0713
+Section: python
+Priority: optional
+Description: GUI to clone and manage Live-Build USB sticks
+ This application allows one to make bootable USB sticks from an
+ iso-hybrid image issued by Live-Build. It adapts additionally a
+ persistence partition to use the free space on the USB stick.
+ .
+ It features also management tools for live USB sticks: when such
+ USB disks are used daily, they happen to have inconsistencies in their
+ persistence area which can render them unusable. Tools are provided to
+ save persistence data when necessary, and to blank the persistence area,
+ so the USB disk can be used again.
+ .
+ The application detects when it is run from a Debian-Live environment,
+ thus featuring seamless auto-cloning.
+
+Package: memtest86+
+Version: 6.00-4~bpo11+1
+Architecture: amd64
+Maintainer: Fabio Fantoni <fantonifabio@tiscali.it>
+Installed-Size: 12674
+Suggests: grub-pc | grub-legacy, memtester, mtools
+Filename: ./memtest86+_6.00-4~bpo11+1_amd64.deb
+Size: 125764
+MD5sum: 22e4b3df8c9aa7371264c1b58b733de5
+SHA1: bc2b8e2042a3fa903f6f8c3ba61c92037058b805
+SHA256: 5eaa909b466b7ca28d343f1dd1a1481f1fa29f9d76a446b48bf6e31ef4ce7568
+Section: misc
+Priority: optional
+Homepage: https://www.memtest.org/
+Description: thorough real-mode memory tester
+ Memtest86+ scans your RAM for errors.
+ .
+ This tester runs independently of any OS - it is run at computer
+ boot-up, so that it can test *all* of your memory.  You may want to
+ look at `memtester', which allows to test your memory within Linux,
+ but this one won't be able to test your whole RAM.
+ .
+ It can output a list of bad RAM regions usable by the BadRAM kernel
+ patch, so that you can still use your old RAM with one or two bad bits.
+ .
+ Memtest86+ is based on memtest86 3.0, and adds support for recent
+ hardware, as well as a number of general-purpose improvements,
+ including many patches to memtest86 available from various sources.
+ .
+ Both memtest86 and memtest86+ are being worked on in parallel.
+
+Package: notepadqq
+Version: 2.0.0~beta1-3~bpo11+1
+Architecture: amd64
+Maintainer: Alessandro Grassi <alessandro@aggro.it>
+Installed-Size: 4767
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 7), libuchardet0 (>= 0.0.1), libjs-highlight.js (>= 9.12), libjs-modernizr, libjs-jquery (>= 2.1.1), libjs-requirejs (>= 2.3.5), libjs-mathjax (>= 2.7.0)
+Filename: ./notepadqq_2.0.0~beta1-3~bpo11+1_amd64.deb
+Size: 1012412
+MD5sum: 03642ac5a06b012e0b098c865d404873
+SHA1: e411ebb9ebe51379db8d59e8d54166cb716b5083
+SHA256: 82ff2c08347e3a27133d0799a950676309bc89508b87be9cce8498df74a01eec
+Section: editors
+Priority: optional
+Homepage: https://notepadqq.com/
+Description: Notepad++-like editor for Linux
+ Notepadqq is a text editor designed from developers,
+ for developers.
+ .
+ It support for multiple programming languages, multiple
+ encodings, plugins and unnamed buffers.
+
+Package: pavucontrol-qt
+Version: 0.16.0-2~bpo11+1
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 236
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.16.0), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 4.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), pulseaudio | pipewire-pulse
+Recommends: pavucontrol-qt-l10n
+Filename: ./pavucontrol-qt_0.16.0-2~bpo11+1_amd64.deb
+Size: 66416
+MD5sum: fbc9a3f4342b66bfe3d645610e95a2aa
+SHA1: c65884c75a894eed618a8377419ea58148582141
+SHA256: 172d2f0a5a671c5bf8ac241bf43ea45afd1c19a1e1b18060478a9b40115a5bce
+Section: utils
+Priority: optional
+Homepage: https://github.com/lxqt/pavucontrol-qt
+Description: Qt port of volume control pavucontrol
+ Qt port of volume control pavucontrol of sound server PulseAudio. As such it
+ can be used to adjust all controls provided by PulseAudio as well as some
+ additional settings.
+ .
+ The software belongs to the LXQt project but its usage isn't limited to this
+ desktop environment.
+ .
+ This package contain the application files.
+
+Package: pavucontrol-qt-l10n
+Source: pavucontrol-qt
+Version: 0.16.0-2~bpo11+1
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 661
+Depends: qttranslations5-l10n
+Filename: ./pavucontrol-qt-l10n_0.16.0-2~bpo11+1_all.deb
+Size: 80536
+MD5sum: 8629675de19bf79ef327c82bdfb68eed
+SHA1: f1f66d264790ad3837d1f12a862c0d4ea8f7d9cf
+SHA256: 0d0d8efe07f6a904f292aed98ac75dc0fcb7fabdabe3df40226e1294679bace4
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/pavucontrol-qt
+Description: Language package for pavucontrol-qt
+ This package contains the l10n files needed by the pavucontrol-qt.
+
+Package: praat
+Version: 6.2.23-1~bpo11+1
+Architecture: amd64
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 74231
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 6), oss-compat, python3:any
+Suggests: libasound2-plugins
+Filename: ./praat_6.2.23-1~bpo11+1_amd64.deb
+Size: 15973000
+MD5sum: a140a6162ce7062883e70af1ddb435da
+SHA1: bb892c3de76326f2c8c2474376b2791ebdc15424
+SHA256: a5cf9f5c0640e6b645524f4c92f2a533f581480777ff76f8a485cbcbe0fd1556
+Section: science
+Priority: optional
+Homepage: https://www.praat.org
+Description: program for speech analysis and synthesis
+ According to its authors, praat is "doing phonetics by computer".  Through
+ its graphical interface, several speech analysis functionalities are
+ available: spectrograms, cochleograms, and pitch and formant
+ extraction.  Articulatory synthesis, as well as synthesis from pitch,
+ formant, and intensity are also available.  Other features are
+ segmentation, labelling using the phonetic alphabet, and computation of
+ statistics.  Praat is configurable and extensible through its own scripting
+ language and has provisions for communicating with other programs.
+
+Package: python3-dirsync
+Version: 0:2.2.5-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 60
+Depends: python3-six, python3:any
+Filename: ./python3-dirsync_2.2.5-1~w2d0_all.deb
+Size: 11624
+MD5sum: 0f0e7734423b62b12426cd15436fd68b
+SHA1: b36096ca1ed45f2bfa210b5d1973cc939843526d
+SHA256: c9d61fff4db4f7ee6565a3b77538526650b55e94d43f6959b758adbd723b4d18
+Section: python
+Priority: optional
+Homepage: https://github.com/tkhyn/dirsync/
+Description: Advanced directory tree synchronisation tool
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-konfsave
+Version: 0:0.4.2-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 101
+Depends: python3:any
+Filename: ./python3-konfsave_0.4.2-1~w2d0_all.deb
+Size: 22264
+MD5sum: 691b58e4a425cad882e573178fa37a93
+SHA1: 032f3fd556250bdb62694d24a4ec4e68b9a98b04
+SHA256: af00a634ad25f03f8f0d48fe73d1797cdb1715bb103064b0e8886635af1cb55d
+Section: python
+Priority: optional
+Homepage: https://github.com/selplacei/konfsave
+Description: Easy saving and switching between multiple KDE configurations.
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-pip
+Source: python-pip
+Version: 22.3+dfsg-1~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 6653
+Depends: ca-certificates, python3-distutils, python3-setuptools, python3-wheel, python3:any
+Recommends: build-essential, python3-dev (>= 3.2)
+Breaks: python-pip
+Replaces: python-pip
+Provides: pip
+Filename: ./python3-pip_22.3+dfsg-1~bpo11+1_all.deb
+Size: 1328556
+MD5sum: 830841dcb2be5e7c1958755adf087dea
+SHA1: 84fdd6d2c1428e579e387d4e768c3f1699bb5bc5
+SHA256: c92051660e1d485621b206058968355e6eaad7acfe0dfbf07ae4b93ab235a041
+Section: python
+Priority: optional
+Homepage: https://pip.pypa.io/en/stable/
+Description: Python package installer
+ pip is the Python package installer.  It integrates with virtualenv, doesn't
+ do partial installs, can save package state for replaying, can install from
+ non-egg sources, and can install from version control repositories.
+ .
+ This is the Python 3 version of the package.
+
+Package: python3-pip-whl
+Source: python-pip
+Version: 22.3+dfsg-1~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1746
+Depends: ca-certificates
+Breaks: python-pip-whl (<< 21.3.1+dfsg-2~)
+Replaces: python-pip-whl (<< 21.3.1+dfsg-2~)
+Filename: ./python3-pip-whl_22.3+dfsg-1~bpo11+1_all.deb
+Size: 1718092
+MD5sum: 79af5fe3360b4d8782d4cef3033feaac
+SHA1: a8c9984e36f5fe40c10b07c1e5b633be6cbb5bfb
+SHA256: 43cfd7125d2807cd2e4adb2a48bc47f74e3ddd434f59ac371d9d059536cffa1f
+Section: python
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://pip.pypa.io/en/stable/
+Description: Python package installer (pip wheel)
+ pip is the Python package installer.  It integrates with virtualenv, doesn't
+ do partial installs, can save package state for replaying, can install from
+ non-egg sources, and can install from version control repositories.
+ .
+ This is the support package for the PEP 427 wheel version of the package,
+ required for using pip inside a virtual environment.
+
+Package: python3-pipdeptree
+Version: 0:2.3.3-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 73
+Depends: python3:any
+Filename: ./python3-pipdeptree_2.3.3-1~w2d0_all.deb
+Size: 15900
+MD5sum: 64a188709cb08b4b85da5512f2cb0c12
+SHA1: 5b8bab72a22aaafe40082fd493bbbcc84613468f
+SHA256: bbab8231789496d4844aaa8492b73ea883bb04bc56e9bb49504d735a8db95f85
+Section: python
+Priority: optional
+Description: Command line utility to show dependency tree of packages.
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-ps-mem
+Version: 0:3.14-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 99
+Depends: python3:any
+Filename: ./python3-ps-mem_3.14-1~w2d0_all.deb
+Size: 20184
+MD5sum: 77470f863b46d50a5cb6c6afe8fd326d
+SHA1: fb1795b7cc666727be554c90c6912d02982ebd37
+SHA256: 4f966d0342706b70f4dbdba81d4971ab577cf361e0a4ba6d27920d6fbbb8f7b8
+Section: python
+Priority: optional
+Homepage: http://github.com/pixelb/ps_mem
+Description: A utility to report core memory usage per program
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-wheel2deb
+Version: 0:0.5.8-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 91
+Depends: python3 (>= 3.4~), python3-attr (>= 17), python3-colorama, python3-dirsync, python3-jinja2, python3-packaging, python3-pkginfo, python3-setuptools, python3-wheel, python3-yaml, python3:any
+Filename: ./python3-wheel2deb_0.5.8-1~w2d0_all.deb
+Size: 19744
+MD5sum: 9dca1549dbd39ef57bf4eb7071462cd0
+SHA1: 59e86e6a846ca0c2ab63c2d25ad4fe700fcfc7c7
+SHA256: 3abab6301459fb6029cc5c934440058375fb9450ea270871de041b6a862ef9c6
+Section: python
+Priority: optional
+Homepage: https://github.com/upciti/wheel2deb/
+Description: wheel2deb: python wheel to debian package converter
+ This package was generated by wheel2deb v0.5.8
+
+Package: smplayer
+Version: 22.7.0~ds0-1~bpo11+1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 4394
+Depends: mpv | mplayer, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.14.1), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, zlib1g (>= 1:1.1.4)
+Recommends: smplayer-themes, smplayer-l10n
+Filename: ./smplayer_22.7.0~ds0-1~bpo11+1_amd64.deb
+Size: 1961856
+MD5sum: 8795fb502a917d1439ace0c74be6794a
+SHA1: 6225350e0f829cddebd511bfdf5c581b563169cf
+SHA256: ef5559584c5d1f4c51fab5a7582f9ac8ee32892ab972836210ceed55fe87b501
+Section: video
+Priority: optional
+Homepage: http://smplayer.sourceforge.net/
+Description: Complete front-end for MPlayer and mpv
+ Qt5 front-end for mplayer and forks, with basic features like playing
+ videos, DVDs, and VCDs to more advanced features like support
+ for MPlayer filters and more. One of the most interesting features
+ of SMPlayer: it remembers the settings of all files you play.
+ So you start to watch a movie but you have to leave... don't
+ worry, when you open that movie again it will resume at the same
+ point you left it, and with the same settings: audio track,
+ subtitles, volume...
+
+Package: smplayer-l10n
+Source: smplayer
+Version: 22.7.0~ds0-1~bpo11+1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 10903
+Depends: smplayer (>= 22.7.0~ds0-1~bpo11+1)
+Breaks: smplayer-translations (<< 14.3.0)
+Replaces: smplayer-translations (<< 14.3.0)
+Filename: ./smplayer-l10n_22.7.0~ds0-1~bpo11+1_all.deb
+Size: 1336704
+MD5sum: 7e9844bfc87027f6775ced35a69079b2
+SHA1: ffd5d759371fd5a74048793fa9ce0088159a6725
+SHA256: 4c6738d1168c488f9e16a3ffe297895d5314721375a7c222c458d9fc943549d3
+Section: localization
+Priority: optional
+Homepage: http://smplayer.sourceforge.net/
+Description: Complete front-end for MPlayer and mpv - translation files
+ Qt5 front-end for mplayer and forks, with basic features like playing
+ videos, DVDs, and VCDs to more advanced features like support
+ for MPlayer filters and more. One of the most interesting features
+ of SMPlayer: it remembers the settings of all files you play.
+ So you start to watch a movie but you have to leave... don't
+ worry, when you open that movie again it will resume at the same
+ point you left it, and with the same settings: audio track,
+ subtitles, volume...
+ .
+ This package contains translation files.
+
+Package: smtube
+Version: 21.7.0-1~bpo11+1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 835
+Depends: smplayer | mpv | mplayer | vlc | totem | dragonplayer, libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5webkit5 (>= 5.212.0~alpha3), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./smtube_21.7.0-1~bpo11+1_amd64.deb
+Size: 264996
+MD5sum: 70c470729f5d31b53d8a21bb2e2f5877
+SHA1: b90e2e744fabcbea504b6100fb3ea30b319b27ab
+SHA256: 5a49f05d0e907d433f51947586196da683386fe2a0826bbe9a7b4df94f514196
+Section: video
+Priority: optional
+Homepage: https://www.smtube.org/
+Description: YouTube videos browser
+ SMTube is a stand-alone graphical application which allows one
+ to search and download Youtube videos. Although it is part of
+ the SMPlayer project, it can be used with any multimedia player
+ such as mpv, MPlayer, VLC, Totem or Dragon Player.
+
