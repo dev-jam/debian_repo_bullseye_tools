@@ -934,3 +934,27 @@ Description: YouTube videos browser
  the SMPlayer project, it can be used with any multimedia player
  such as mpv, MPlayer, VLC, Totem or Dragon Player.
 
+Package: virtualbox-guest-additions-iso
+Version: 7.0.4-1~bpo11+1
+Architecture: all
+Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Installed-Size: 51748
+Recommends: virtualbox (>= 7.0.4)
+Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1, virtualbox-5.2, virtualbox-6.0, virtualbox-7.0
+Filename: ./virtualbox-guest-additions-iso_7.0.4-1~bpo11+1_all.deb
+Size: 38920612
+MD5sum: 59c5aa0f0484927cf000b99b416925c8
+SHA1: b322ca7b364b1b53af8ae54a478a8da3835a2386
+SHA256: 2a8a46c9525d9b739af3a991f3faa80dcb5a93d1cc5775811df8e2aeb13755d4
+Section: non-free/misc
+Priority: optional
+Homepage: https://www.virtualbox.org
+Description: guest additions iso image for VirtualBox
+ VirtualBox is a free x86 virtualization solution allowing a wide range of
+ x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides an iso image which contains the guest additions
+ for Linux, Solaris and Windows to be installed on the host system. The guest
+ systems then can mount the iso and install the guest additions from there.
+
