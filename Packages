@@ -427,53 +427,6 @@ Description: DVD-Video playing library - installer
  the process of downloading source files, compiling them, and installing
  the binary packages.
 
-Package: libdvdcss-dev
-Source: libdvdcss
-Version: 1.4.3-1~local
-Architecture: amd64
-Maintainer: Dmitry Smirnov <onlyjob@debian.org>
-Installed-Size: 26
-Depends: libdvd-pkg, libdvdcss2 (= 1.4.3-1~local)
-Filename: ./libdvdcss-dev_1.4.3-1~local_amd64.deb
-Size: 6864
-MD5sum: e742f844b720107c2415e71114073e86
-SHA1: 3cfb813be98eb70626081fddbe05a13510b8a99c
-SHA256: b7b762f8e6cfbba949130b41650fcd3fd0874131e775f90fe355edb078ab065d
-Section: libdevel
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.videolan.org/developers/libdvdcss.html
-Description: library for accessing encrypted DVDs - development files
- libdvdcss is a library for accessing and unscrambling DVDs encrypted
- with the Content Scramble System (CSS).
- libdvdcss is part of the VideoLAN project.
- .
- This package provides development files.
-
-Package: libdvdcss2
-Source: libdvdcss
-Version: 1.4.3-1~local
-Architecture: amd64
-Maintainer: Dmitry Smirnov <onlyjob@debian.org>
-Installed-Size: 62
-Depends: libdvd-pkg, libc6 (>= 2.7)
-Provides: libdvdcss
-Filename: ./libdvdcss2_1.4.3-1~local_amd64.deb
-Size: 22848
-MD5sum: ed1ba645e408881d12ad9a751c4e8765
-SHA1: 9960786049a337755d4aaf405f2756ab84eba335
-SHA256: 7f7b799db28f9917f7747c163c4b295ea3489c1c03f05180231356f49bf538f2
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.videolan.org/developers/libdvdcss.html
-Description: library for accessing encrypted DVDs
- libdvdcss is a library for accessing and unscrambling DVDs encrypted
- with the Content Scramble System (CSS).
- libdvdcss is part of the VideoLAN project.
- .
- This package provides runtime libraries.
-
 Package: libindicator3-7
 Source: libindicator
 Version: 0.5.0-4
